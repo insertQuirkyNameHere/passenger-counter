@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(216deg 12% 8%);
+    color: hsl(0deg 0% 100%);
+    font-family: 'Overpass', sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(213deg 20% 18%);
+    padding: 30px;
+    border-radius: 5%;
+}
+
+h1{
+    color: hsl(0deg 50% 71%);
+}
+
+h2{
+    margin: 0px;
+}
+
+button{
+    width: 85%;
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 30px;
+    border: none;
+    color: hsl(0deg 0% 100%);
+}
+
+#increment-el{
+    background-color: hsl(25deg 50% 42%);
+}
+
+#increment-el:hover{
+    color: hsl(25deg 50% 42%);
+    background-color: hsl(0deg 0% 100%);
+    cursor: pointer;
+}
+
+#save-btn{
+    background-color: rgb(68 116 82);
+}
+
+
+#save-btn:hover{
+    color: rgb(68 116 82);
+    background-color: hsl(0deg 0% 100%);
+    cursor: pointer;
+}
+
+p{
+    color: hsl(25, 97%, 53%);
+}
